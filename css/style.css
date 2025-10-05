@@ -1,0 +1,64 @@
+
+@media (max-width:266px) {
+    header .btn {
+        padding: 0.2rem 0.4rem;
+        font-size: 0.50rem;
+        
+    } 
+}
+
+.bottom-nav span{
+    font-size: 10px;
+}
+
+.loan-request img{
+    display: flex;
+    width: 50%;
+    margin: auto auto;
+    height: 90%;
+}
+.loan-request {
+    background-color: #13274f;
+}
+.loan-request .btn{
+    background-color:#0ac974 ;
+    color: white;
+}
+
+.app-installing .row{
+    background-color: #0b2c6e;
+}
+
+@media (max-width:769px) {
+    .site-featues img{
+        width: 50%;
+        
+    }
+}
+
+.loan-amountDisplay .main-background{
+    background:rgb(19,39,79);
+    box-shadow: inset 0px -30px 10px rgba(250, 250, 250, 0.5);
+    border-radius: 15px;
+    
+}
+@media (min-width:768px){
+
+    .loan-amountDisplay .loan-amountCalculate{
+        width: 80%;
+    }
+}
+@media (max-width:768px){
+    .loan-amountDisplay .loan-amountCalculate{
+        width: 95%;
+    }
+}
+
+
+.loan-amountCalculate div:nth-child(4) span{
+    font-size: 13px;
+    color: #cdc1d0;
+}
+.loan-amountCalculate{
+    border-radius: 15px;
+}
